@@ -68,6 +68,6 @@ This is a summary file for book----《乖，摸摸头》
 *  西藏
 *  丽江
 > 大冰的小屋
-老兵的烧烤
+> 老兵的烧烤
 
 
