@@ -1,4 +1,4 @@
-This is a summary file for HTTP权威指南
+This is a summary file for book  《HTTP权威指南》
 =============
 
 ## 1 HTTP概述
