@@ -25,3 +25,39 @@ eg:
 ```javascript
 {path:/product,component:ProductComponent, data:[{isProd:true}]}   =>  ActivatedRoute.data[0][isProd]
 ```
+
+###重定向路由
+在用户访问一个特定的地址时，将其重定向到另一个指定的地址
+eg：
+```javascript
+www.aaa.com    =>    www.aaa.com/products
+www.aaa.com/a    =>    www.aaa.com/y
+```
+###子路由
+```javascript
+{path: 'home',component:HomeComponent}
+
+{path: 'home',component:HomeComponent,
+    children:[
+        {
+            path:'',component:XxxComponent
+        },
+        {
+            path:'/yyy',component:YyyComponent
+        }
+    ]
+}
+```
+###辅助路由
+```html
+<router-outlet></router-outlet>
+<router-outlet name="aux"></router-outlet>
+```
+```javascript
+{path: 'xxx', component: XxxComponent, outlet: 'aux'}
+{path: 'yyy', component: YyyComponent, outlet: 'aux'}
+```
+```html
+<a [routerLink]="['./home', {outlet: {aux: 'xxx'}}]">Xxx</a>
+<a [routerLink]="['./product', {outlet: {aux: 'yyy'}}]">Yyy</a>
+```
