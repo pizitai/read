@@ -58,6 +58,6 @@ www.aaa.com/a    =>    www.aaa.com/y
 {path: 'yyy', component: YyyComponent, outlet: 'aux'}
 ```
 ```html
-<a [routerLink]="['./home', {outlet: {aux: 'xxx'}}]">Xxx</a>
-<a [routerLink]="['./product', {outlet: {aux: 'yyy'}}]">Yyy</a>
+<a [routerLink]="[{outlets: {aux: 'xxx'}}]">Xxx</a>
+<a [routerLink]="[{outlets: {aux: 'yyy'}}]">Yyy</a>
 ```
