@@ -61,3 +61,11 @@ www.aaa.com/a    =>    www.aaa.com/y
 <a [routerLink]="[{outlets: {aux: 'xxx'}}]">Xxx</a>
 <a [routerLink]="[{outlets: {aux: 'yyy'}}]">Yyy</a>
 ```
+###路由守卫
++ 只有当用户已经登录并拥有某些权限时才能进入某些路由
++ 一个由多个表单组件组成的向导，例如注册流程，用户只有在当前路由的组件中填写了满足要求的信息才可以导航到下一个路由
++ 当用户未执行保存操作而试图离开当前导航时提醒用户
+
+1. CanActivate：处理导航到某路由的情况
+2. CanDeactivate：处理从当前路由离开的情况
+3. Resolve: 在路由激活之前获取路由数据
