@@ -37,8 +37,15 @@
 http://www.jquerycn.cn/a_16686
 
 13. js有哪些数据类型呢
+> 字符串、数字、布尔、数组、对象、undefined和null
+>> 参考链接：
+http://www.w3school.com.cn/js/js_datatypes.asp
 
 14. 这些数据类型，哪些是引用类型的呢
+> 数组、对象、null
+>> 参考链接：  
+https://www.cnblogs.com/CandyManPing/p/5386767.html  
+https://www.cnblogs.com/cxying93/p/6106469.html  
 
 15. 你知道原型链么
 
