@@ -82,7 +82,9 @@ http://www.jb51.net/article/50686.htm
 https://www.cnblogs.com/qianlegeqian/p/4227487.html
 
 19. 你有了解过作用域链么
-
+> 全局作用域、函数作用域、块级作用域（ES6中的 `{}`）
+参考链接：
+https://www.cnblogs.com/jianjianwoshi/p/4541007.html
 20. 你对前端有什么理解？
 
 21. 你有什么规划？
