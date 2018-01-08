@@ -5,14 +5,24 @@
 1. 面试官一上来就先大概了解实习的情况，但不深入，也不谈实习具体的工作，还谈了实习招聘的时候为什么没通过..
 
 2. 你觉得在前端这一方面你哪一块比较熟悉呢？
+> ES6
 
 3. 你知道什么是CSS reset么
+> HTML标签在浏览器中都有默认的样式，不同的浏览器的默认样式之间存在差别。例如ul默认带有缩进样式，在IE下，它的缩进是由margin实现的，而在Firefox下却是由padding实现的。开发时浏览器的默认样式可能会给我们带来多浏览器兼容性问题，影响开发效率。现在很流行的解决方式是一开始就将浏览器的默认样式全部覆盖掉，这就是css reset。
+参考链接：https://www.cnblogs.com/maggie-pan/p/6392185.html
+https://meyerweb.com/eric/tools/css/reset/
 
 4. 你平常写CSS的时候有考虑过CSS的性能么
+> 从以下四方面考虑：加载性能、选择器性能、渲染性能、可维护性和健壮性
+参考链接：https://www.zhihu.com/question/19886806
 
 5. 你知道什么是CSS预处理么
+> css预处理技术已经发展的比较成熟了，通过css预处理技术可以很好的提升css的**编程性**，_**提高css代码的开发效率和可维护性**_，目前比较热门的相关技术有Sass、Less CSS、Stylus、postCSS等，
+参考链接：http://blog.csdn.net/haoshidai/article/details/52027673
 
 6. 关于浮动的原理和工作方式，你可以描述一下么
+> 浮动元素脱离文档流，不占据空间。浮动元素碰到包含它的边框或者浮动元素的边框停留。
+> 参考链接：https://www.cnblogs.com/xianglx/p/5676951.html
 
 7. 浮动会产生什么影响呢，要怎么处理？
 - 影响：
