@@ -139,3 +139,6 @@ https://www.jianshu.com/p/e8f3c04b4b05
 22. 你觉得前端体系应该是怎样的？
 
 23. 你有什么问题要问我？
+
+24. 浏览器内部工作原理
+> 参考链接：https://kb.cnblogs.com/page/129756/
