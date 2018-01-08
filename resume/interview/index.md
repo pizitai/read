@@ -48,6 +48,10 @@ https://www.cnblogs.com/CandyManPing/p/5386767.html
 https://www.cnblogs.com/cxying93/p/6106469.html  
 
 15. 你知道原型链么
+> 构造函数、原型和实例
+>> 参考链接： 
+http://www.jb51.net/article/87426.htm
+https://www.cnblogs.com/mikezhu/p/5814791.html
 
 16. 说说函数表达式和函数声明的区别
 
